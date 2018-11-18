@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fair News</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather|Titillium+Web" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src = "/Scripts/getjsondata.js"></script>
+        <style>
+            .fakeimg {
+                height: 200px;
+                background: #aaa;
+            }
+            .news-window {
+                height: 300%;
+                width: 100%;
+                border-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Center Banner -->
+        <div class="container-fluid text-center h-100" style="background-color: #F4F9FD; padding: 5px;">
+            <p style="font-size: 55px; font-family: 'Merriweather'">Fair News</p>
+        </div>
+
+        <!-- Big Banner -->
+        <div class="container-fluid text-center" style="background-color: #E8EAF2; padding: 15px; font-family: 'Titillium Web';">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <h2 style="font-style: bold">Paving the Way for Better Information</h2>
+                    <h4>We're here to show both sides of a story. We show news from both
+                        sides of the political spectrum and let our users decide what to make
+                        of what they read. We hope you enjoy our journey and message!
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+        <!-- Dropdown -->
+        <div class="container" style="font-family: 'Merriweather'">
+            <div class="row text-center">
+                
+            </div>
+            <br>
+        </div>
+
+        <!-- Article Section -->
+        <div class="container-fluid" style="font-family: 'Merriweather'">
+            <div class="row text-center">
+                <div class="col-6">
+                    <h3 class="text-center" id="article1"></h3>
+                </div>
+                <div class="col-6">
+                    <h3 class="text-center" id="article2"></h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="fixed-bottom container-fluid" style="background-color: #E8EAF2;">
+            <div class="footer-copyright text-center py-3">© 2018 Copyright Team Nairs, Powered by News API:
+                <a href="https://dubhacks.co" target="_blank"> Dubhacks</a>
+            </div>
+        </footer>
+    </body>
+
+
+</html>
